@@ -8,6 +8,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.title("Youtube Downloader")
+
 st.sidebar.header("Format Selection")
 
 select_box = st.sidebar.radio(
